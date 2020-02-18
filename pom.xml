@@ -53,8 +53,8 @@
     
     <distributionManagement>
     <repository>
-      <id>nexus</id>
-      <name>Nexus Releases</name>
+      <id>sample_release</id>
+      <name>sample_release</name>
       <url>http://199.223.233.120:8081/repository/sample_release/</url>
     </repository>
     </distributionManagement>

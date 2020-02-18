@@ -55,7 +55,7 @@
     <repository>
       <id>nexus</id>
       <name>Nexus Releases</name>
-      <url>http://35.222.224.87:8081/repository/sample_release/</url>
+      <url>http://199.223.233.120:8081/repository/sample_release/</url>
     </repository>
     </distributionManagement>
     

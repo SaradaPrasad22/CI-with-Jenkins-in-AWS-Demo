@@ -58,6 +58,5 @@
       <url>http://199.223.233.120:8081/repository/sample_release/</url>
     </repository>
     </distributionManagement>
-    
-    
+     
 </project>

@@ -10,20 +10,20 @@ spec:
  template: 
   metadata:
    labels:
-   app: webapp1
+    app: webapp1
   spec:
    containers:
    - name: webapp1
-   image: saradadocker/jenkinsjob:tagversion
-   ports:
-   - containerPort: 8080
+     image: saradadocker/jenkinsjob:tagversion
+     ports:
+     - containerPort: 8080
 ---
 apiVersion: v1
 kind: Service
 metadata:
    name: webapp1-svc
    labels:
-   app: webapp1
+    app: webapp1
 spec:
   type: LoadBalancer
   ports:

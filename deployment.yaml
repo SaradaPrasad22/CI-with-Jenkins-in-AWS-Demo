@@ -14,7 +14,7 @@ apiVersion: apps/v1
 	    spec:
 	      containers:
 	      - name: webapp1
-	        image: saradadocker/jenkinsjob:1.0.0
+	        image: saradadocker/jenkinsjob:tagversion
 	        ports:
 	        - containerPort: 8080
 	---
